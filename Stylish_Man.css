@@ -1,0 +1,424 @@
+/*Header stylings*/
+h1, h2, h4, h5, h6{
+    font-family: "Merriweather", serif;
+    text-align: center;
+    color: magenta;
+    font-weight: 600;
+    font-size: 72px;
+    margin-bottom: -20px;
+        }
+   h3{
+    font-family: "Merriweather", serif;
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+       margin: 0px;
+}
+
+.header-padding1 {
+    margin: 20px 10px;
+}
+
+.header-padding1A{
+    margin: 20px 10px;
+    color: black;
+}
+
+.header-padding2{
+    margin: 20px;
+}
+
+/*Nav menu stylings*/
+.admiral-navbar1{
+        width: 100%;
+        display: inline-flex;
+    overflow: auto;
+    }
+
+div.head-menu {
+    width: 100%;
+    display: inline-flex;
+    margin-bottom: auto;
+    margin-right: auto; 
+}
+
+div.head-menu2 {
+    width: 100%;
+    display: inline-flex;
+    margin-bottom: 25px;
+    margin-right: auto; 
+    align-content: center;
+}
+/*Intro page stuff*/
+.intro {
+    display: flex;
+    align-items: center;
+    margin-left: inherit;
+    margin-right: inherit;
+    }
+
+.intro2 {
+    display: inline-flex;
+    align-items: center;
+    margin: inherit;
+}
+
+.intro3 {
+    display: block;
+    align-items: center;
+    margin: 0;
+    width: 50%;
+}
+
+.pic-and-text{
+    display: block;
+    align-items: center;
+    margin-top: inherit;
+    margin-bottom: inherit;
+}
+
+.pic-and-text2{
+    display: flex;
+    align-items: center;
+}
+
+.pic-and-text3{
+    display: inline-flex;
+    align-items: right;
+    
+}
+
+body{
+    background-color: #000;
+        }
+
+     p {
+    font-family: "Source Sans Pro", "Arial", "Helvetica", "sans-serif";
+            color: white;
+            margin: 10px 20px 10px 20px;
+        }
+        
+        
+        a{
+            color: white;
+            font-weight: 600;
+        }
+
+a:hover {
+    color: cyan;
+}
+        
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    }
+
+/*Paragraph alterations*/
+
+.p-changes1 {
+    font-family: "Source Serif Pro", serif;
+    font-size: 36px;
+    font-weight: 300;
+    margin: 25px 5px;
+}
+
+.p-changes2 {
+    font-family: "Arial", "Helvetica", "sans-serif";
+    font-size: 24px;
+    font-weight: 300;
+    margin: 25px 5px;
+}
+
+.p-changes2A {
+    font-family: "Arial", "Helvetica", sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    margin: 25px 5px;
+    display: flex;
+}
+
+
+.p-changes3{
+    font-family: "Arial", "Helvetica", "sans-serif";
+    font-size: 24px;
+    font-weight: 300;
+    margin: 40px 5px;
+}
+
+/*Image styling*/
+
+#GA-pic{
+    z-index: 0;
+    opacity: 0.43;
+    height: 350px;
+    width: auto;
+}
+
+.image-trim1 {
+    border-radius: 50%;
+    margin: 20px 50px
+    vertical-align: middle;
+    margin: 20px;
+    width: 30%
+}
+
+.image-trim1A {
+    border-radius: 50%;
+    margin: 20px 50px
+    vertical-align: middle;
+    margin: 20px;
+    width: 30%
+    align: right;
+}
+
+.image-trim2 {
+    border-radius: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: solid 3px cyan;
+    text-align: center;
+}
+
+.image-trim3{
+    height: 100px;
+    width: auto;
+    border-radius: 7px;
+    margin: auto;
+    margin-top: 7px;
+}
+
+.image-trim3A{
+    height: 100px;
+    width: auto;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image-trim4{
+    height: auto;
+    width: 250px;
+    border-radius: 7px;
+    margin: auto;
+}
+
+.image-trim4A{
+    height: auto;
+    width: 350px;
+    border-radius: 7px;
+    margin: 35px;
+}
+
+.image-trim5 {
+    border-radius: 7%;
+    margin: 20px 50px;
+    height: 350px;
+    width: auto;
+    border: solid 3px cyan;
+}
+
+.image-trim6 {
+    height: auto;
+    width: 250px;
+    margin: 10px;
+    width: 50%;
+    
+}
+
+
+button.but-class1 {
+    background-color: magenta;
+    color: black;
+    border: solid 3px white;
+    border-radius: 3px;
+    text-align: center;
+    padding: 16px;
+    font-weight: 800;
+    font-size: 20px;
+    width: 20%
+    margin: auto;
+}
+
+.but-class1:hover{
+    background-color: white;
+    color: black;
+}
+
+button.but-class2 {
+    background-color: yellow;
+    color: black;
+    border: solid 3px white;
+    border-radius: 3px;
+    text-align: center;
+    padding: 16px;
+    font-weight: 800;
+    font-size: 20px;
+    margin: auto;
+}
+
+.but-class2:hover{
+    background-color: white;
+    color: black;
+}
+
+button.but-class2A {
+    background-color: yellow;
+    color: black;
+    border: solid 3px white;
+    border-radius: 3px;
+    text-align: center;
+    padding: 16px;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.but-class2A:hover{
+    background-color: white;
+    color: black;
+}
+
+button.but-class3 {
+    background-color: cyan;
+    color: black;
+    border: solid 3px white;
+    border-radius: 3px;
+    text-align: center;
+    padding: 16px;
+    font-weight: 800;
+    font-size: 20px;
+    margin: auto;
+}
+
+.but-class3:hover{
+    background-color: white;
+    color: black;
+}
+
+button.but-class4 {
+    background-color: white;
+    color: black;
+    border: solid 3px cyan;
+    border-radius: 3px;
+    text-align: center;
+    padding: 16px;
+    font-weight: 800;
+    font-size: 20px;
+    margin: auto;
+}
+
+.but-class4:hover{
+    border: solid 3px magenta;
+}
+
+.button-with-drop {
+    background-color: #4e2a84;
+    color: white;
+    border: solid 3px white;
+    border-radius: 3px;
+}
+
+.contact-buttons{
+    border-bottom: solid 3px magenta;
+}
+
+.contact-buttons:hover{
+    border: solid 3px cyan;
+    border-radius: 10%
+}
+
+/*Dropdown menus CSS*/
+
+.dropdown {
+    margin: 20px 10px;
+    border: solid 3px white;
+    border-radius: 3px;
+    width: 25%
+}
+
+.drop-button1:hover{
+    background-color: white;
+    color: #4e2a84;
+}
+
+.drop-button1 {
+    background-color: #4e2a84;
+    color: white;
+    padding: 16px;
+    font-size: 20px;
+    border: none;
+    font-weight: 800;
+    width: 100%
+}
+
+.drop-button2 {
+    background-color: cyan;
+    color: black;
+    padding: 16px;
+    font-size: 20px;
+    border: none;
+    font-weight: 800;
+    width: 100%
+}
+
+.drop-button2:hover{
+    background-color:white;
+}
+
+.drop-button3 {
+    background-color: magenta;
+    color: black;
+    padding: 16px;
+    font-size: 20px;
+    border: none;
+    font-weight: 800;
+    width: 100%
+}
+
+.drop-button3:hover{
+    background-color: white;
+    color: black;
+}
+
+.drop-button4 {
+    background-color: yellow;
+    color: black;
+    padding: 16px;
+    font-size: 20px;
+    border: none;
+    font-weight: 800;
+    width: 100%
+}
+
+.drop-button4:hover{
+    background-color: white;
+    color: black;
+}
+
+.drop-content {
+    display: none;
+    position: absolute;
+    background-color: #d8d4d4;
+    min-width: 15%;
+    font-family: "Arial", "Helvetica", sans-serif;
+}
+
+.drop-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+}
+
+.drop-content a:hover {background-color: white; color: black;}
+.dropdown:hover .drop-content {display: block;}
+.dropdown:hover drop-button {background-color: yellow;}
+
+iframe.custom-window{
+    border: solid 3px cyan;
+    border-radius: 7%
+}
